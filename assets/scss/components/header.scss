@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: .9rem;
+    margin-bottom: 5rem;
+
+    &__item,
+    &__search,
+    &__nav,
+    &__controls {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__search {
+        position: relative;
+        max-width: 28.5rem;
+        height: 2.6rem;
+        width: 100%;
+        margin-left: 3rem;
+
+        input {
+            width: 100%;
+            height: 100%;
+            background-color: $btn;
+            border: 0;
+            border-radius: .6rem;
+            padding-left: 3rem;
+
+            font-weight: 400;
+            color: $secondaryText;
+
+            &:focus {
+                border: .1rem solid #fff ;
+            }
+        }
+
+        svg {
+            position: absolute;
+            top: .6rem;
+            left: .8rem;
+            z-index: 2;
+        }
+
+    }
+
+    &__nav {
+        width: 45.9rem;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                @include gradientText;
+            }
+        }
+    }
+
+    &__controls {
+        width: 12rem;
+        justify-content: space-between;
+
+        li {
+            cursor: pointer;
+        }
+    }
+
+
+}

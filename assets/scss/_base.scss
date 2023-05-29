@@ -1,0 +1,58 @@
+@import './vendor/reset.scss';
+@import './vars';
+@import './mixins';
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    // 10px = 1rem
+    font-size: 62.5%; // (62.5% = 10px при стандартном режиме браузера)
+    background-color: $bg;
+    color: #fff;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none
+    }
+
+}
+
+
+// Components
+@import './components/header';
+@import './components/container';
+@import './components/footer'
+

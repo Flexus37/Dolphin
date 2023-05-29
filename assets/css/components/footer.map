@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "footer.css",
+	"sources": [
+		"../../scss/components/footer.scss"
+	],
+	"sourcesContent": [
+		".footer {\r\n\r\n    &__grid {\r\n        display: grid;\r\n        grid-template-columns: repeat(12, 1fr);\r\n        gap: 3rem;\r\n    }\r\n\r\n\r\n    &__item {\r\n\r\n        h1 {\r\n            font-size: 2rem;\r\n            margin-bottom: 2.8rem;\r\n        }\r\n\r\n        &:nth-child(1) {\r\n            grid-column: span 3;\r\n        }\r\n\r\n        &:nth-child(2) {\r\n            grid-column: span 2;\r\n        }\r\n\r\n        &:nth-child(3) {\r\n            grid-column: span 2;\r\n        }\r\n\r\n        &:nth-child(4) {\r\n            grid-column: span 2;\r\n        }\r\n\r\n        &:nth-child(5) {\r\n            grid-column: span 3;\r\n            display: grid;\r\n            grid-template-columns: 1fr 1fr;\r\n        }\r\n\r\n\r\n    }\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAEK,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,GAAG,EAAE,IAAI;CACZ;;;AAGA,AAEG,aAFG,CAEH,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,MAAM;CACxB;;;AALJ,AAOG,aAPG,AAOF,UAAW,CAAA,CAAC,EAAE;EACX,WAAW,EAAE,MAAM;CACtB;;;AATJ,AAWG,aAXG,AAWF,UAAW,CAAA,CAAC,EAAE;EACX,WAAW,EAAE,MAAM;CACtB;;;AAbJ,AAeG,aAfG,AAeF,UAAW,CAAA,CAAC,EAAE;EACX,WAAW,EAAE,MAAM;CACtB;;;AAjBJ,AAmBG,aAnBG,AAmBF,UAAW,CAAA,CAAC,EAAE;EACX,WAAW,EAAE,MAAM;CACtB;;;AArBJ,AAuBG,aAvBG,AAuBF,UAAW,CAAA,CAAC,EAAE;EACX,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;CACjC"
+}

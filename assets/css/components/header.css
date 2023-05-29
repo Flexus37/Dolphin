@@ -1,0 +1,25 @@
+/* line 1, D:/www/Dolphin/assets/scss/components/header.scss */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: .9rem;
+}
+
+/* line 8, D:/www/Dolphin/assets/scss/components/header.scss */
+.header__item, .header__search,
+.header__nav ul, .header__controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 17, D:/www/Dolphin/assets/scss/components/header.scss */
+.header__search {
+  max-width: 28.5rem;
+  width: 100%;
+  position: relative;
+}
+
+/*# sourceMappingURL=header.css.map */

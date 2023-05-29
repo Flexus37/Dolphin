@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "container.css",
+	"sources": [
+		"../../scss/components/container.scss"
+	],
+	"sourcesContent": [
+		".container { // 1440px - container + padding (50 + 50)\r\n    max-width: 154rem;\r\n    height: auto;\r\n    margin: 0 auto;\r\n    padding: 0 5rem;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAClB"
+}
