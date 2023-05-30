@@ -1,0 +1,30 @@
+.btn {
+    width: 13.2rem;
+    height: 4.8rem;
+
+    border: none;
+    border-radius: 1.2rem;
+    color: $secondaryText;
+    background-color: $btn;
+    transition: color .1s linear, transform .1s linear;
+
+    &:hover {
+        color: #fff;
+        transform: scale(1.04);
+    }
+
+    &.btn-gradient {
+        color: #fff;
+        background-image: $gradient;
+    }
+
+    &.btn-small {
+        width: 10.2rem;
+        height: 3.7rem;
+    }
+
+    &.btn-slide {
+        width: 4rem;
+        height: 4rem;
+    }
+}

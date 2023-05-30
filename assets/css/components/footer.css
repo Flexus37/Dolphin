@@ -1,41 +1,134 @@
 /* line 3, D:/www/Dolphin/assets/scss/components/footer.scss */
-.footer__grid {
+footer {
+  margin-top: 10rem;
+}
+
+/* line 6, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer {
+  padding: 6.6rem 0 3.5rem;
+}
+
+/* line 10, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 3rem;
 }
 
-/* line 12, D:/www/Dolphin/assets/scss/components/footer.scss */
-.footer__item h1 {
+/* line 17, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item {
+  justify-self: start;
+}
+
+/* line 20, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item h1 {
   font-size: 2rem;
   margin-bottom: 2.8rem;
 }
 
-/* line 17, D:/www/Dolphin/assets/scss/components/footer.scss */
-.footer__item:nth-child(1) {
+/* line 26, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item:nth-child(1) {
   grid-column: span 3;
 }
 
-/* line 21, D:/www/Dolphin/assets/scss/components/footer.scss */
-.footer__item:nth-child(2) {
+/* line 30, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item:nth-child(2), footer .footer__item:nth-child(3), footer .footer__item:nth-child(4) {
   grid-column: span 2;
 }
 
-/* line 25, D:/www/Dolphin/assets/scss/components/footer.scss */
-.footer__item:nth-child(3) {
-  grid-column: span 2;
+/* line 37, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item:nth-child(2) ul li, footer .footer__item:nth-child(3) ul li, footer .footer__item:nth-child(4) ul li {
+  margin-bottom: 2.8rem;
 }
 
-/* line 29, D:/www/Dolphin/assets/scss/components/footer.scss */
-.footer__item:nth-child(4) {
-  grid-column: span 2;
+/* line 41, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item:nth-child(2) ul:last-child, footer .footer__item:nth-child(3) ul:last-child, footer .footer__item:nth-child(4) ul:last-child {
+  margin-bottom: 0;
 }
 
-/* line 33, D:/www/Dolphin/assets/scss/components/footer.scss */
-.footer__item:nth-child(5) {
+/* line 45, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item:nth-child(2) ul a, footer .footer__item:nth-child(3) ul a, footer .footer__item:nth-child(4) ul a {
+  color: #b4b4b4;
+  transition: color .1s linear;
+}
+
+/* line 49, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item:nth-child(2) ul a:hover, footer .footer__item:nth-child(3) ul a:hover, footer .footer__item:nth-child(4) ul a:hover {
+  color: #fff;
+}
+
+/* line 56, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item:nth-child(5) {
   grid-column: span 3;
+}
+
+/* line 60, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+  column-gap: 3rem;
+}
+
+/* line 65, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item-grid-1 {
+  display: flex;
+  align-items: center;
+}
+
+/* line 75, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__item-grid-2 div:first-child {
+  margin-bottom: 2.8rem;
+}
+
+/* line 85, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__email {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+/* line 89, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__email input {
+  width: 24.5rem;
+  height: 3.3rem;
+  background-color: #18254A;
+  border: none;
+  border-radius: .6rem;
+  padding: 0 2.8rem 0 1.1rem;
+  font-weight: 400;
+  color: #b4b4b4;
+}
+
+/* line 103, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__email button {
+  width: 2.8rem;
+  height: 3.3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  border: none;
+  border-radius: .6rem;
+  background-color: #18254A;
+}
+
+/* line 119, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__subscribe {
+  display: flex;
+  justify-content: space-between;
+  width: 16.5rem;
+}
+
+/* line 124, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__subscribe a {
+  cursor: pointer;
+}
+
+/* line 130, D:/www/Dolphin/assets/scss/components/footer.scss */
+footer .footer__copyright {
+  font-size: 1rem;
+  color: #b4b4b4;
+  text-align: center;
+  margin-top: 2.8rem;
 }
 
 /*# sourceMappingURL=footer.css.map */

@@ -429,30 +429,37 @@ body {
 }
 
 /* line 28, D:/www/Dolphin/assets/scss/_base.scss */
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* line 34, D:/www/Dolphin/assets/scss/_base.scss */
 h1 {
   font-size: 4rem;
   font-weight: 700;
 }
 
-/* line 33, D:/www/Dolphin/assets/scss/_base.scss */
+/* line 39, D:/www/Dolphin/assets/scss/_base.scss */
 h2 {
   font-size: 2rem;
   font-weight: 700;
 }
 
-/* line 38, D:/www/Dolphin/assets/scss/_base.scss */
+/* line 44, D:/www/Dolphin/assets/scss/_base.scss */
 h3 {
   font-size: 1.6rem;
   font-weight: 700;
 }
 
-/* line 43, D:/www/Dolphin/assets/scss/_base.scss */
+/* line 49, D:/www/Dolphin/assets/scss/_base.scss */
 a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 47, D:/www/Dolphin/assets/scss/_base.scss */
+/* line 53, D:/www/Dolphin/assets/scss/_base.scss */
 a:hover {
   text-decoration: none;
 }
@@ -677,6 +684,47 @@ footer .footer__copyright {
   color: #b4b4b4;
   text-align: center;
   margin-top: 2.8rem;
+}
+
+/* line 1, D:/www/Dolphin/assets/scss/components/btn.scss */
+.btn {
+  width: 13.2rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: 1.2rem;
+  color: #b4b4b4;
+  background-color: #18254A;
+  transition: color .1s linear, transform .1s linear;
+}
+
+/* line 11, D:/www/Dolphin/assets/scss/components/btn.scss */
+.btn:hover {
+  color: #fff;
+  transform: scale(1.04);
+}
+
+/* line 16, D:/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-gradient {
+  color: #fff;
+  background-image: linear-gradient(to top, #26BEFF, #5BCEFF, #8EDDFF);
+}
+
+/* line 21, D:/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-small {
+  width: 10.2rem;
+  height: 3.7rem;
+}
+
+/* line 26, D:/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-slide {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* line 3, D:/www/Dolphin/assets/scss/index.scss */
+.preview {
+  width: 100%;
+  background-color: rgba(65, 55, 170, 0.2);
 }
 
 /*# sourceMappingURL=index.css.map */

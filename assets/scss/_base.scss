@@ -25,6 +25,12 @@ body {
     font-weight: 600;
 }
 
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
 h1 {
     font-size: 4rem;
     font-weight: 700;
@@ -54,5 +60,6 @@ a {
 // Components
 @import './components/header';
 @import './components/container';
-@import './components/footer'
+@import './components/footer';
+@import './components/btn';
 
