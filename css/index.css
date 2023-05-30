@@ -1,9 +1,7 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
    License: none (public domain)
 */
-/* line 6, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,47 +24,39 @@ time, mark, audio, video {
 }
 
 /* make sure to set some focus styles for accessibility */
-/* line 28, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 :focus {
   outline: 0;
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 33, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 38, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 42, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 46, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 50, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
-/* line 56, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 61, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration,
 input[type=search]::-webkit-search-results-button,
@@ -75,16 +65,12 @@ input[type=search]::-webkit-search-results-decoration {
   -moz-appearance: none;
 }
 
-/* line 69, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 input[type=search] {
   -webkit-appearance: none;
   -moz-appearance: none;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
-/* line 77, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
@@ -94,7 +80,6 @@ textarea {
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 87, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 audio,
 canvas,
 video {
@@ -108,7 +93,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 101, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -118,7 +102,6 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 111, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 [hidden] {
   display: none;
 }
@@ -129,20 +112,15 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 122, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 html {
-  font-size: 100%;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
+  font-size: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
 }
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 132, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -150,7 +128,6 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 140, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -160,18 +137,14 @@ a:hover {
  * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improve image quality when scaled in IE 7.
  */
-/* line 150, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 img {
-  border: 0;
-  /* 1 */
-  -ms-interpolation-mode: bicubic;
-  /* 2 */
+  border: 0; /* 1 */
+  -ms-interpolation-mode: bicubic; /* 2 */
 }
 
 /**
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 159, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 figure {
   margin: 0;
 }
@@ -179,7 +152,6 @@ figure {
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
-/* line 167, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 form {
   margin: 0;
 }
@@ -187,7 +159,6 @@ form {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 175, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -199,15 +170,11 @@ fieldset {
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-/* line 187, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 legend {
-  border: 0;
-  /* 1 */
+  border: 0; /* 1 */
   padding: 0;
-  white-space: normal;
-  /* 2 */
-  *margin-left: -7px;
-  /* 3 */
+  white-space: normal; /* 2 */
+  *margin-left: -7px; /* 3 */
 }
 
 /**
@@ -216,26 +183,20 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
-/* line 201, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 button,
 input,
 select,
 textarea {
-  font-size: 100%;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  vertical-align: baseline;
-  /* 3 */
-  *vertical-align: middle;
-  /* 3 */
+  font-size: 100%; /* 1 */
+  margin: 0; /* 2 */
+  vertical-align: baseline; /* 3 */
+  *vertical-align: middle; /* 3 */
 }
 
 /**
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 216, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 button,
 input {
   line-height: normal;
@@ -247,7 +208,6 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 228, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 button,
 select {
   text-transform: none;
@@ -262,23 +222,18 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 243, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */
-  *overflow: visible;
-  /* 4 */
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+  *overflow: visible; /* 4 */
 }
 
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 256, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -290,17 +245,12 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 268, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-  *height: 13px;
-  /* 3 */
-  *width: 13px;
-  /* 3 */
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+  *height: 13px; /* 3 */
+  *width: 13px; /* 3 */
 }
 
 /**
@@ -308,13 +258,8 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 282, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
+input[type=search] {
+  -webkit-appearance: textfield; /* 1 */ /* 2 */
   box-sizing: content-box;
 }
 
@@ -322,16 +267,14 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 294, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-/* line 303, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -342,24 +285,19 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 314, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 textarea {
-  overflow: auto;
-  /* 1 */
-  vertical-align: top;
-  /* 2 */
+  overflow: auto; /* 1 */
+  vertical-align: top; /* 2 */
 }
 
 /**
  * Remove most spacing between table cells.
  */
-/* line 323, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 328, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 html,
 button,
 input,
@@ -368,36 +306,30 @@ textarea {
   color: #222;
 }
 
-/* line 337, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 342, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 347, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 351, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-/* line 357, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 361, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/vendor/reset.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -405,4 +337,206 @@ textarea {
   padding: 0.2em 0;
 }
 
-/*# sourceMappingURL=reset.css.map */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #0B1426;
+  color: #fff;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.9rem;
+  margin-bottom: 5rem;
+}
+.header__item, .header__search, .header__nav, .header__controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__search {
+  position: relative;
+  max-width: 28.5rem;
+  height: 2.6rem;
+  width: 100%;
+  margin-left: 3rem;
+}
+.header__search input {
+  width: 100%;
+  height: 100%;
+  background-color: #18254A;
+  border: 0;
+  border-radius: 0.6rem;
+  padding-left: 3rem;
+  font-weight: 400;
+  color: #b4b4b4;
+}
+.header__search input:focus {
+  border: 0.1rem solid #fff;
+}
+.header__search svg {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.8rem;
+  z-index: 2;
+}
+.header__nav {
+  width: 45.9rem;
+  justify-content: space-between;
+}
+.header__nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.header__nav a:hover {
+  background-image: linear-gradient(90deg, #26BEFF, #8EDDFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header__controls {
+  width: 12rem;
+  justify-content: space-between;
+}
+.header__controls li {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 154rem;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+footer {
+  margin-top: 10rem;
+}
+footer .footer {
+  padding: 6.6rem 0 3.5rem;
+}
+footer .footer__grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 3rem;
+}
+footer .footer__item {
+  justify-self: start;
+}
+footer .footer__item h1 {
+  font-size: 2rem;
+  margin-bottom: 2.8rem;
+}
+footer .footer__item:nth-child(1) {
+  grid-column: span 3;
+}
+footer .footer__item:nth-child(2), footer .footer__item:nth-child(3), footer .footer__item:nth-child(4) {
+  grid-column: span 2;
+}
+footer .footer__item:nth-child(2) ul li, footer .footer__item:nth-child(3) ul li, footer .footer__item:nth-child(4) ul li {
+  margin-bottom: 2.8rem;
+}
+footer .footer__item:nth-child(2) ul:last-child, footer .footer__item:nth-child(3) ul:last-child, footer .footer__item:nth-child(4) ul:last-child {
+  margin-bottom: 0;
+}
+footer .footer__item:nth-child(2) ul a, footer .footer__item:nth-child(3) ul a, footer .footer__item:nth-child(4) ul a {
+  color: #b4b4b4;
+  transition: color 0.1s linear;
+}
+footer .footer__item:nth-child(2) ul a:hover, footer .footer__item:nth-child(3) ul a:hover, footer .footer__item:nth-child(4) ul a:hover {
+  color: #fff;
+}
+footer .footer__item:nth-child(5) {
+  grid-column: span 3;
+}
+footer .footer__item-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+footer .footer__item-grid-1 {
+  display: flex;
+  align-items: center;
+}
+footer .footer__item-grid-2 div:first-child {
+  margin-bottom: 2.8rem;
+}
+footer .footer__email {
+  position: relative;
+  margin-bottom: 3rem;
+}
+footer .footer__email input {
+  width: 24.5rem;
+  height: 3.3rem;
+  background-color: #18254A;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0 2.8rem 0 1.1rem;
+  font-weight: 400;
+  color: #b4b4b4;
+}
+footer .footer__email button {
+  width: 2.8rem;
+  height: 3.3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #18254A;
+}
+footer .footer__subscribe {
+  display: flex;
+  justify-content: space-between;
+  width: 16.5rem;
+}
+footer .footer__subscribe a {
+  cursor: pointer;
+}
+footer .footer__copyright {
+  font-size: 1rem;
+  color: #b4b4b4;
+  text-align: center;
+  margin-top: 2.8rem;
+}/*# sourceMappingURL=index.css.map */
