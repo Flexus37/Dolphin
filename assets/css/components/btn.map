@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "btn.css",
+	"sources": [
+		"../../scss/components/btn.scss"
+	],
+	"sourcesContent": [
+		".btn {\r\n    width: 13.2rem;\r\n    height: 4.8rem;\r\n\r\n    border: none;\r\n    border-radius: 1.2rem;\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,MAAM;EAEd,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,MAAM;CAExB"
+}

@@ -25,6 +25,12 @@ body {
     font-weight: 600;
 }
 
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
 h1 {
     font-size: 4rem;
     font-weight: 700;
@@ -42,26 +48,30 @@ h3 {
     font-weight: 700;
 }
 
-h_name_card {
-    font-size: 1.9rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    line-height: 2.5rem;
-}
 
-h_info_card {
-    font-size: 1.4rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    line-height: 2.5rem;
-    color:#B4B4B4;
-}
+// h_info_card {
+//     font-size: 1.4rem;
+//     font-weight: 700;
+//     letter-spacing: 0.1rem;
+//     line-height: 2.5rem;
+//     color:#B4B4B4;
+// }
 
-h_price_card{
-    font-size: 1.3rem;
-    font-weight: 700;
-    line-height: 2.1rem;
-}
+// .artical_info_card{
+//     font-size: 1.6rem;
+//     font-weight: 400;
+//     width: 22.1rem;
+//     letter-spacing: 0.1rem;
+//     line-height: 1.95rem;
+//     color:#B4B4B4;
+//     margin-top: 3rem;
+// }
+
+// h_price_card{
+//     font-size: 1.3rem;
+//     font-weight: 700;
+//     line-height: 2.1rem;
+// }
 a {
     color: #fff;
     text-decoration: none;
@@ -76,5 +86,6 @@ a {
 // Components
 @import './components/header';
 @import './components/container';
-@import './components/footer'
+@import './components/footer';
+@import './components/btn';
 

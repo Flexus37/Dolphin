@@ -1,5 +1,8 @@
-@import './base';
+@import './_base';
 
-// h1 {
-//     font-size: 1px;
-// }
+.preview {
+    width: 100%;
+
+
+    background-color: rgba($color: #4137AA, $alpha: .2);
+}

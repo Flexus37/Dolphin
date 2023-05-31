@@ -430,12 +430,19 @@ body {
 }
 
 /* line 28, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* line 34, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 h1 {
   font-size: 4rem;
   font-weight: 700;
 }
 
-/* line 33, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 39, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 h2 {
   font-size: 4rem;
   font-weight: 510;
@@ -443,43 +450,19 @@ h2 {
   line-height: 4.9rem;
 }
 
-/* line 40, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 46, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 h3 {
   font-size: 1.6rem;
   font-weight: 700;
 }
 
-/* line 45, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
-h_name_card {
-  font-size: 1.9rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  line-height: 2.5rem;
-}
-
-/* line 52, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
-h_info_card {
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  line-height: 2.5rem;
-  color: #B4B4B4;
-}
-
-/* line 60, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
-h_price_card {
-  font-size: 1.3rem;
-  font-weight: 700;
-  line-height: 2.1rem;
-}
-
-/* line 65, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 75, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 69, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 79, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 a:hover {
   text-decoration: none;
 }
@@ -704,6 +687,47 @@ footer .footer__copyright {
   color: #b4b4b4;
   text-align: center;
   margin-top: 2.8rem;
+}
+
+/* line 1, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn {
+  width: 13.2rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: 1.2rem;
+  color: #b4b4b4;
+  background-color: #18254A;
+  transition: color .1s linear, transform .1s linear;
+}
+
+/* line 11, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn:hover {
+  color: #fff;
+  transform: scale(1.04);
+}
+
+/* line 16, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-gradient {
+  color: #fff;
+  background-image: linear-gradient(to top, #26BEFF, #5BCEFF, #8EDDFF);
+}
+
+/* line 21, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-small {
+  width: 10.2rem;
+  height: 3.7rem;
+}
+
+/* line 26, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-slide {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* line 3, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/index.scss */
+.preview {
+  width: 100%;
+  background-color: rgba(65, 55, 170, 0.2);
 }
 
 /*# sourceMappingURL=index.css.map */

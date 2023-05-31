@@ -430,12 +430,19 @@ body {
 }
 
 /* line 28, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* line 34, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 h1 {
   font-size: 4rem;
   font-weight: 700;
 }
 
-/* line 33, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 39, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 h2 {
   font-size: 4rem;
   font-weight: 510;
@@ -443,43 +450,19 @@ h2 {
   line-height: 4.9rem;
 }
 
-/* line 40, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 46, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 h3 {
   font-size: 1.6rem;
   font-weight: 700;
 }
 
-/* line 45, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
-h_name_card {
-  font-size: 1.9rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  line-height: 2.5rem;
-}
-
-/* line 52, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
-h_info_card {
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  line-height: 2.5rem;
-  color: #B4B4B4;
-}
-
-/* line 60, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
-h_price_card {
-  font-size: 1.3rem;
-  font-weight: 700;
-  line-height: 2.1rem;
-}
-
-/* line 65, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 75, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 69, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
+/* line 79, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/_base.scss */
 a:hover {
   text-decoration: none;
 }
@@ -706,7 +689,77 @@ footer .footer__copyright {
   margin-top: 2.8rem;
 }
 
-/* line 4, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+/* line 1, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn {
+  width: 13.2rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: 1.2rem;
+  color: #b4b4b4;
+  background-color: #18254A;
+  transition: color .1s linear, transform .1s linear;
+}
+
+/* line 11, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn:hover {
+  color: #fff;
+  transform: scale(1.04);
+}
+
+/* line 16, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-gradient {
+  color: #fff;
+  background-image: linear-gradient(to top, #26BEFF, #5BCEFF, #8EDDFF);
+}
+
+/* line 21, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-small {
+  width: 10.2rem;
+  height: 3.7rem;
+}
+
+/* line 26, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/components/btn.scss */
+.btn.btn-slide {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* line 3, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.go {
+  width: 13.2rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: 1.2rem;
+  color: #b4b4b4;
+  background-color: #18254A;
+  transition: color .1s linear, transform .1s linear;
+}
+
+/* line 13, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.go:hover {
+  color: #fff;
+  transform: scale(1.04);
+}
+
+/* line 18, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.go.btn-gradient {
+  color: #fff;
+  background-image: linear-gradient(to top, #26BEFF, #5BCEFF, #8EDDFF);
+}
+
+/* line 23, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.go.btn-small {
+  width: 10.2rem;
+  height: 3.7rem;
+}
+
+/* line 28, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.go.btn-slide {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* line 35, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
 .news__desk {
   display: flex;
   width: 100%;
@@ -716,7 +769,7 @@ footer .footer__copyright {
   margin-top: 3rem;
 }
 
-/* line 20, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+/* line 51, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
 .news__desk__card {
   width: 31.2rem;
   height: 61.6rem;
@@ -726,12 +779,37 @@ footer .footer__copyright {
   margin-right: 3rem;
 }
 
-/* line 28, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+/* line 59, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
 .news__desk__card:last-child {
   margin-right: 0;
 }
 
-/* line 34, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+/* line 63, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.news__desk__card h3 {
+  width: 27.8rem;
+  height: 1.4rem;
+  padding-left: 2.2rem;
+  padding-top: 2.1rem;
+}
+
+/* line 70, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.news__desk__card p {
+  width: 25.2rem;
+  height: 7.9rem;
+  margin-top: 3.3rem;
+  padding-left: 2.3rem;
+  color: #b4b4b4;
+}
+
+/* line 81, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.info_card {
+  width: 25.2rem;
+  height: 7.9rem;
+  margin-top: 3.3rem;
+  line-height: 2.1rem;
+}
+
+/* line 88, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
 .news__desk__zagolovok {
   width: 32.4rem;
   height: 29.4rem;
@@ -739,52 +817,127 @@ footer .footer__copyright {
   padding-left: 4.8rem;
 }
 
-/* line 41, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
-.image {
+/* line 95, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.image_news {
   width: 26.8rem;
   height: 26.7rem;
   margin-left: 2.2rem;
   margin-right: auto;
-  padding-top: 1.3rem;
+  margin-top: 1.3rem;
   border-radius: 1.3rem;
 }
 
-/* line 50, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
-.name_card {
-  width: 27.8rem;
-  height: 1.4rem;
-  padding-left: 2.2rem;
-  padding-top: 2.1rem;
-}
-
-/* line 57, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
-.info_card {
-  width: 25.2rem;
-  height: 7.9rem;
-  margin-top: 3.3rem;
-  padding-left: 2.3rem;
-}
-
-/* line 65, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+/* line 104, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
 .price {
   width: 5.9rem;
   height: 4.7rem;
   margin-top: 13.1rem;
-  padding-left: 2.2rem;
 }
 
-/* line 72, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+/* line 109, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.price span {
+  margin-top: 0.5rem;
+}
+
+/* line 114, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
 .articles {
   margin-top: 7.1rem;
 }
 
-/* line 76, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
-.article_item_next {
-  width: 4rem;
-  height: 4rem;
+/* line 117, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.articles h1 {
+  line-height: 4.87rem;
+  letter-spacing: 0.1rem;
+}
+
+/* line 123, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.articles__desk {
+  display: flex;
+  align-items: center;
+  margin-top: 5.8rem;
+  width: 100%;
+  height: 48.4rem;
+}
+
+/* line 131, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.articles__desk__btn-next svg {
+  transform: rotate(180deg);
+}
+
+/* line 136, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.articles__desk__btn-prev {
+  margin-right: 3rem;
+}
+
+/* line 140, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.articles__desk:last-child {
+  margin-right: 0;
+}
+
+/* line 144, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.articles__desk span {
+  margin-top: 9.2rem;
+}
+
+/* line 150, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.article__card {
+  width: 29.4rem;
+  height: 48.7rem;
+  border-radius: 3.7rem;
   background-color: #18254A;
-  margin-top: 30.9rem;
-  border-radius: 1.2rem;
+  margin-right: 3rem;
+  padding: 1.7rem 2rem 0;
+}
+
+/* line 158, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.article__card-inner {
+  width: 100%;
+}
+
+/* line 162, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.article__card h2 {
+  font-size: 1.6rem;
+  line-height: 1.95rem;
+}
+
+/* line 168, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.artical_info_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* line 174, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.image__article {
+  width: 25.4rem;
+  height: 18rem;
+  border-radius: 3.7rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 184, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.popular {
+  margin-top: 7rem;
+}
+
+/* line 188, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.popular__desk {
+  display: flex;
+  align-items: center;
+  margin-top: 5.8rem;
+  width: 100%;
+  height: 35.1rem;
+}
+
+/* line 198, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.popular__desk__image {
+  margin-right: 7.3rem;
+}
+
+/* line 201, C:/Users/Mr Hak/Desktop/Папки/unbounded/www/Dolphin/assets/scss/news.scss */
+.popular__desk__image:last-child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=news.css.map */
