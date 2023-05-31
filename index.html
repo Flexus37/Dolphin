@@ -36,12 +36,12 @@
                 <div class="header__item">
                     <ul class="header__controls">
                         <li>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="header__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.99992 17.3884C5.92039 17.3884 6.66659 16.6618 6.66659 15.7653C6.66659 14.8689 5.92039 14.1423 4.99992 14.1423C4.07944 14.1423 3.33325 14.8689 3.33325 15.7653C3.33325 16.6618 4.07944 17.3884 4.99992 17.3884Z" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M14.1667 17.3884C15.0871 17.3884 15.8333 16.6618 15.8333 15.7653C15.8333 14.8689 15.0871 14.1423 14.1667 14.1423C13.2462 14.1423 12.5 14.8689 12.5 15.7653C12.5 16.6618 13.2462 17.3884 14.1667 17.3884Z" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M14.1666 14.1423H4.99992V2.78076H3.33325" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M5 4.40381L16.6667 5.21535L15.8333 10.8961H5" stroke="white" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
+                            </svg>
                         </li>
                         <li>
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,13 +68,250 @@
     <main>
         <div class="container">
             <div class="preview">
-                <div class="preview__item"></div>
                 <div class="preview__item">
-                    <button class="btn btn-slide preview-item-btn" type="submit">
-                        <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
-                        </svg>
+                    <h1>Исследуйте, покупайте и создавайте NFT</h1>
+                    <h2>Миллионы брендов и работ уже ждут вас!</h2>
+                    <button class="btn btn-gradient preview__item-catalog" type="button">
+                        <a href="#">Каталог</a>
                     </button>
+                    <button class="btn preview__item-sale" type="button">
+                        <a href="#">Продать</a>
+                    </button>
+                </div>
+                <div class="preview__item">
+                    <div class="preview__content">
+                        <button class="btn btn-slide preview__item-slider-prev" type="submit">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
+                            </svg>
+                        </button>
+
+                        <div class="preview__slider-wrapper">
+                            <div class="preview__slider-inner">
+                                <div class="preview__slide">
+                                    <img src="./assets/img/preview-card-1.jpg" alt="NFT-карточка">
+                                </div>
+                                <div class="preview__slide">
+                                    <img src="./assets/img/preview-card-2.png" alt="NFT-карточка">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-slide preview__item-slider-next" type="submit">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="slider__bar">
+                        <div class="slider__thumb"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular">
+                <h1>Популярные NFT</h1>
+                <div class="popular__cards">
+                    <div class="popular__cards-prev">
+                        <button class="btn btn-slide popular__cards-prev-btn" type="submit">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="popular__cards-item">
+                        <h2>Cool Ape</h2>
+                        <img src="./assets/img/popular-card-1.jpg" alt="">
+                        <div class="shadow-overlay"></div>
+                        <div class="popular__cards-about">
+                            <div class="popular__cards-price">
+                                <h3>Цена</h3>
+                                <p>0.989 ETH</p>
+                            </div>
+                            <div class="popular__cards-buy">
+                                <button class="btn btn-gradient btn-small popular__cards-btn" type="button">Купить</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="popular__cards-item">
+                        <h2>CRYPTOPUNK</h2>
+                        <img src="./assets/img/popular-card-2.jpg" alt="">
+                        <div class="shadow-overlay"></div>
+                        <div class="popular__cards-about">
+                            <div class="popular__cards-price">
+                                <h3>Цена</h3>
+                                <p>0.989 ETH</p>
+                            </div>
+                            <div class="popular__cards-buy">
+                                <button class="btn btn-gradient btn-small popular__cards-btn" type="button">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular__cards-item">
+                        <h2>Draw Girl</h2>
+                        <img src="./assets/img/popular-card-3.jpg" alt="">
+                        <div class="shadow-overlay"></div>
+                        <div class="popular__cards-about">
+                            <div class="popular__cards-price">
+                                <h3>Цена</h3>
+                                <p>0.989 ETH</p>
+                            </div>
+                            <div class="popular__cards-buy">
+                                <button class="btn btn-gradient btn-small popular__cards-btn" type="button">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular__cards-item">
+                        <h2>Japane Teen</h2>
+                        <img src="./assets/img/popular-card-4.jpg" alt="">
+                        <div class="shadow-overlay"></div>
+                        <div class="popular__cards-about">
+                            <div class="popular__cards-price">
+                                <h3>Цена</h3>
+                                <p>0.989 ETH</p>
+                            </div>
+                            <div class="popular__cards-buy">
+                                <button class="btn btn-gradient btn-small popular__cards-btn" type="button">Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular__cards-next">
+                        <button class="btn btn-slide popular__cards-next-btn" type="submit">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brands">
+                <h1>Лучшие бренды</h1>
+                <div class="brands__cards">
+                    <div class="brands__cards-prev">
+                        <button class="btn btn-slide brands__card-prev-btn" type="submit">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="brands__cards-item">
+                        <img src="./assets/img/brands-card-1.jpg" alt="">
+                        <div class="brands__cards-about">
+                            <a class="brands__cards-name" href="#">Cryptopunk</a>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.69291 1.43463C9.39428 0.66482 10.6057 0.66482 11.3071 1.43463V1.43463C11.7724 1.94531 12.4924 2.13825 13.1507 1.92863V1.92863C14.143 1.61264 15.1922 2.21836 15.4147 3.23572V3.23572C15.5623 3.91061 16.0894 4.43774 16.7643 4.58534V4.58534C17.7816 4.80784 18.3874 5.85698 18.0714 6.84929V6.84929C17.8617 7.50757 18.0547 8.22764 18.5654 8.69291V8.69291C19.3352 9.39428 19.3352 10.6057 18.5654 11.3071V11.3071C18.0547 11.7724 17.8617 12.4924 18.0714 13.1507V13.1507C18.3874 14.143 17.7816 15.1922 16.7643 15.4147V15.4147C16.0894 15.5623 15.5623 16.0894 15.4147 16.7643V16.7643C15.1922 17.7816 14.143 18.3874 13.1507 18.0714V18.0714C12.4924 17.8617 11.7724 18.0547 11.3071 18.5654V18.5654C10.6057 19.3352 9.39428 19.3352 8.69291 18.5654V18.5654C8.22764 18.0547 7.50757 17.8617 6.84929 18.0714V18.0714C5.85698 18.3874 4.80784 17.7816 4.58534 16.7643V16.7643C4.43774 16.0894 3.91061 15.5623 3.23572 15.4147V15.4147C2.21836 15.1922 1.61264 14.143 1.92863 13.1507V13.1507C2.13825 12.4924 1.94531 11.7724 1.43463 11.3071V11.3071C0.66482 10.6057 0.66482 9.39428 1.43463 8.69291V8.69291C1.94531 8.22764 2.13825 7.50757 1.92863 6.84929V6.84929C1.61264 5.85698 2.21835 4.80785 3.23572 4.58534V4.58534C3.91061 4.43774 4.43774 3.91061 4.58534 3.23572V3.23572C4.80785 2.21835 5.85698 1.61264 6.84929 1.92863V1.92863C7.50757 2.13825 8.22764 1.94531 8.69291 1.43463V1.43463Z" fill="url(#paint0_linear_901_885)"/>
+                                <path d="M5.8125 10.75L8.625 13.5625L14.25 7.9375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_901_885" x1="-2.26579" y1="8.54297" x2="0.765405" y2="-1.43363" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#26BEFF"/>
+                                <stop offset="0.510417" stop-color="#5BCEFF"/>
+                                <stop offset="1" stop-color="#8EDDFF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="brands__cards-item">
+                        <img src="./assets/img/brands-card-2.jpg" alt="">
+                        <div class="brands__cards-about">
+                            <a class="brands__cards-name" href="#">Bored Ape</a>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.69291 1.43463C9.39428 0.66482 10.6057 0.66482 11.3071 1.43463V1.43463C11.7724 1.94531 12.4924 2.13825 13.1507 1.92863V1.92863C14.143 1.61264 15.1922 2.21836 15.4147 3.23572V3.23572C15.5623 3.91061 16.0894 4.43774 16.7643 4.58534V4.58534C17.7816 4.80784 18.3874 5.85698 18.0714 6.84929V6.84929C17.8617 7.50757 18.0547 8.22764 18.5654 8.69291V8.69291C19.3352 9.39428 19.3352 10.6057 18.5654 11.3071V11.3071C18.0547 11.7724 17.8617 12.4924 18.0714 13.1507V13.1507C18.3874 14.143 17.7816 15.1922 16.7643 15.4147V15.4147C16.0894 15.5623 15.5623 16.0894 15.4147 16.7643V16.7643C15.1922 17.7816 14.143 18.3874 13.1507 18.0714V18.0714C12.4924 17.8617 11.7724 18.0547 11.3071 18.5654V18.5654C10.6057 19.3352 9.39428 19.3352 8.69291 18.5654V18.5654C8.22764 18.0547 7.50757 17.8617 6.84929 18.0714V18.0714C5.85698 18.3874 4.80784 17.7816 4.58534 16.7643V16.7643C4.43774 16.0894 3.91061 15.5623 3.23572 15.4147V15.4147C2.21836 15.1922 1.61264 14.143 1.92863 13.1507V13.1507C2.13825 12.4924 1.94531 11.7724 1.43463 11.3071V11.3071C0.66482 10.6057 0.66482 9.39428 1.43463 8.69291V8.69291C1.94531 8.22764 2.13825 7.50757 1.92863 6.84929V6.84929C1.61264 5.85698 2.21835 4.80785 3.23572 4.58534V4.58534C3.91061 4.43774 4.43774 3.91061 4.58534 3.23572V3.23572C4.80785 2.21835 5.85698 1.61264 6.84929 1.92863V1.92863C7.50757 2.13825 8.22764 1.94531 8.69291 1.43463V1.43463Z" fill="url(#paint0_linear_901_885)"/>
+                                <path d="M5.8125 10.75L8.625 13.5625L14.25 7.9375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_901_885" x1="-2.26579" y1="8.54297" x2="0.765405" y2="-1.43363" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#26BEFF"/>
+                                <stop offset="0.510417" stop-color="#5BCEFF"/>
+                                <stop offset="1" stop-color="#8EDDFF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="brands__cards-item">
+                        <img src="./assets/img/brands-card-3.jpg" alt="">
+                        <div class="brands__cards-about">
+                            <a class="brands__cards-name" href="#">Meebits</a>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.69291 1.43463C9.39428 0.66482 10.6057 0.66482 11.3071 1.43463V1.43463C11.7724 1.94531 12.4924 2.13825 13.1507 1.92863V1.92863C14.143 1.61264 15.1922 2.21836 15.4147 3.23572V3.23572C15.5623 3.91061 16.0894 4.43774 16.7643 4.58534V4.58534C17.7816 4.80784 18.3874 5.85698 18.0714 6.84929V6.84929C17.8617 7.50757 18.0547 8.22764 18.5654 8.69291V8.69291C19.3352 9.39428 19.3352 10.6057 18.5654 11.3071V11.3071C18.0547 11.7724 17.8617 12.4924 18.0714 13.1507V13.1507C18.3874 14.143 17.7816 15.1922 16.7643 15.4147V15.4147C16.0894 15.5623 15.5623 16.0894 15.4147 16.7643V16.7643C15.1922 17.7816 14.143 18.3874 13.1507 18.0714V18.0714C12.4924 17.8617 11.7724 18.0547 11.3071 18.5654V18.5654C10.6057 19.3352 9.39428 19.3352 8.69291 18.5654V18.5654C8.22764 18.0547 7.50757 17.8617 6.84929 18.0714V18.0714C5.85698 18.3874 4.80784 17.7816 4.58534 16.7643V16.7643C4.43774 16.0894 3.91061 15.5623 3.23572 15.4147V15.4147C2.21836 15.1922 1.61264 14.143 1.92863 13.1507V13.1507C2.13825 12.4924 1.94531 11.7724 1.43463 11.3071V11.3071C0.66482 10.6057 0.66482 9.39428 1.43463 8.69291V8.69291C1.94531 8.22764 2.13825 7.50757 1.92863 6.84929V6.84929C1.61264 5.85698 2.21835 4.80785 3.23572 4.58534V4.58534C3.91061 4.43774 4.43774 3.91061 4.58534 3.23572V3.23572C4.80785 2.21835 5.85698 1.61264 6.84929 1.92863V1.92863C7.50757 2.13825 8.22764 1.94531 8.69291 1.43463V1.43463Z" fill="url(#paint0_linear_901_885)"/>
+                                <path d="M5.8125 10.75L8.625 13.5625L14.25 7.9375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_901_885" x1="-2.26579" y1="8.54297" x2="0.765405" y2="-1.43363" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#26BEFF"/>
+                                <stop offset="0.510417" stop-color="#5BCEFF"/>
+                                <stop offset="1" stop-color="#8EDDFF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="brands__cards-item">
+                        <img src="./assets/img/brands-card-4.jpg" alt="">
+                        <div class="brands__cards-about">
+                            <a class="brands__cards-name" href="#">Clone X</a>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.69291 1.43463C9.39428 0.66482 10.6057 0.66482 11.3071 1.43463V1.43463C11.7724 1.94531 12.4924 2.13825 13.1507 1.92863V1.92863C14.143 1.61264 15.1922 2.21836 15.4147 3.23572V3.23572C15.5623 3.91061 16.0894 4.43774 16.7643 4.58534V4.58534C17.7816 4.80784 18.3874 5.85698 18.0714 6.84929V6.84929C17.8617 7.50757 18.0547 8.22764 18.5654 8.69291V8.69291C19.3352 9.39428 19.3352 10.6057 18.5654 11.3071V11.3071C18.0547 11.7724 17.8617 12.4924 18.0714 13.1507V13.1507C18.3874 14.143 17.7816 15.1922 16.7643 15.4147V15.4147C16.0894 15.5623 15.5623 16.0894 15.4147 16.7643V16.7643C15.1922 17.7816 14.143 18.3874 13.1507 18.0714V18.0714C12.4924 17.8617 11.7724 18.0547 11.3071 18.5654V18.5654C10.6057 19.3352 9.39428 19.3352 8.69291 18.5654V18.5654C8.22764 18.0547 7.50757 17.8617 6.84929 18.0714V18.0714C5.85698 18.3874 4.80784 17.7816 4.58534 16.7643V16.7643C4.43774 16.0894 3.91061 15.5623 3.23572 15.4147V15.4147C2.21836 15.1922 1.61264 14.143 1.92863 13.1507V13.1507C2.13825 12.4924 1.94531 11.7724 1.43463 11.3071V11.3071C0.66482 10.6057 0.66482 9.39428 1.43463 8.69291V8.69291C1.94531 8.22764 2.13825 7.50757 1.92863 6.84929V6.84929C1.61264 5.85698 2.21835 4.80785 3.23572 4.58534V4.58534C3.91061 4.43774 4.43774 3.91061 4.58534 3.23572V3.23572C4.80785 2.21835 5.85698 1.61264 6.84929 1.92863V1.92863C7.50757 2.13825 8.22764 1.94531 8.69291 1.43463V1.43463Z" fill="url(#paint0_linear_901_885)"/>
+                                <path d="M5.8125 10.75L8.625 13.5625L14.25 7.9375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_901_885" x1="-2.26579" y1="8.54297" x2="0.765405" y2="-1.43363" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#26BEFF"/>
+                                <stop offset="0.510417" stop-color="#5BCEFF"/>
+                                <stop offset="1" stop-color="#8EDDFF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="brands__cards-item">
+                        <img src="./assets/img/brands-card-5.jpg" alt="">
+                        <div class="brands__cards-about">
+                            <a class="brands__cards-name" href="#">CoolCats</a>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.69291 1.43463C9.39428 0.66482 10.6057 0.66482 11.3071 1.43463V1.43463C11.7724 1.94531 12.4924 2.13825 13.1507 1.92863V1.92863C14.143 1.61264 15.1922 2.21836 15.4147 3.23572V3.23572C15.5623 3.91061 16.0894 4.43774 16.7643 4.58534V4.58534C17.7816 4.80784 18.3874 5.85698 18.0714 6.84929V6.84929C17.8617 7.50757 18.0547 8.22764 18.5654 8.69291V8.69291C19.3352 9.39428 19.3352 10.6057 18.5654 11.3071V11.3071C18.0547 11.7724 17.8617 12.4924 18.0714 13.1507V13.1507C18.3874 14.143 17.7816 15.1922 16.7643 15.4147V15.4147C16.0894 15.5623 15.5623 16.0894 15.4147 16.7643V16.7643C15.1922 17.7816 14.143 18.3874 13.1507 18.0714V18.0714C12.4924 17.8617 11.7724 18.0547 11.3071 18.5654V18.5654C10.6057 19.3352 9.39428 19.3352 8.69291 18.5654V18.5654C8.22764 18.0547 7.50757 17.8617 6.84929 18.0714V18.0714C5.85698 18.3874 4.80784 17.7816 4.58534 16.7643V16.7643C4.43774 16.0894 3.91061 15.5623 3.23572 15.4147V15.4147C2.21836 15.1922 1.61264 14.143 1.92863 13.1507V13.1507C2.13825 12.4924 1.94531 11.7724 1.43463 11.3071V11.3071C0.66482 10.6057 0.66482 9.39428 1.43463 8.69291V8.69291C1.94531 8.22764 2.13825 7.50757 1.92863 6.84929V6.84929C1.61264 5.85698 2.21835 4.80785 3.23572 4.58534V4.58534C3.91061 4.43774 4.43774 3.91061 4.58534 3.23572V3.23572C4.80785 2.21835 5.85698 1.61264 6.84929 1.92863V1.92863C7.50757 2.13825 8.22764 1.94531 8.69291 1.43463V1.43463Z" fill="url(#paint0_linear_901_885)"/>
+                                <path d="M5.8125 10.75L8.625 13.5625L14.25 7.9375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_901_885" x1="-2.26579" y1="8.54297" x2="0.765405" y2="-1.43363" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#26BEFF"/>
+                                <stop offset="0.510417" stop-color="#5BCEFF"/>
+                                <stop offset="1" stop-color="#8EDDFF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="brands__cards-next">
+                        <button class="btn btn-slide brands__card-next-btn" type="submit">
+                            <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quickstart">
+                <h1>Как сделать NFT</h1>
+                <div class="quickstart__inner">
+                    <div class="quickstart__item">
+                        <img src="./assets/img/quickstart-img-1.png" alt="Metamask store">
+                        <h2>Подключите свой NFT кошелёк</h2>
+                        <p>Используйте только проверенные сервисы</p>
+                    </div>
+                    <div class="quickstart__item">
+                        <img src="./assets/img/quickstart-img-2.png" alt="Metamask store">
+                        <div class="quickstart__content">
+                            <h2>Создайте свой NFT</h2>
+                            <p>Проявите творчество, поставьте свою цену</p>
+                        </div>
+                    </div>
+                    <div class="quickstart__item">
+                        <img src="./assets/img/quickstart-img-3.png" alt="Metamask store">
+                        <h2>Начните зарабатывать</h2>
+                        <p>Выставите своё NFT на продажу и начните зарабатывать криптовалюту</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,11 +326,7 @@
                         <h1>Узнавайте первыми</h1>
                         <form class="footer__email" action="post">
                             <input  type="email" placeholder="Email">
-                            <button type="submit">
-                                <svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.00792 1.22988C1.31674 0.836726 1.87054 0.780952 2.24486 1.1053L6.50506 4.79671C6.70738 4.97202 6.82455 5.2331 6.82455 5.50858C6.82455 5.78405 6.70738 6.04513 6.50506 6.22044L2.24486 9.91185C1.87054 10.2362 1.31674 10.1804 1.00792 9.78727C0.699098 9.39412 0.752202 8.81247 1.12653 8.48812L4.56517 5.50858L1.12653 2.52903C0.752202 2.20468 0.699098 1.62303 1.00792 1.22988Z" fill="#B4B4B4"/>
-                                </svg>
-                            </button>
+                            <button type="submit"></button>
                         </form>
 
                         <h1>Подпишитесь на нас</h1>
