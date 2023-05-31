@@ -721,10 +721,362 @@ footer .footer__copyright {
   height: 4rem;
 }
 
-/* line 3, D:/www/Dolphin/assets/scss/index.scss */
+/* line 4, D:/www/Dolphin/assets/scss/index.scss */
 .preview {
   width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 3rem;
+  padding: 3.5rem 7.2rem 3.5rem 9.2rem;
+  border-radius: 4rem;
   background-color: rgba(65, 55, 170, 0.2);
+  margin-bottom: 5rem;
+  transition: background-color .5s linear;
+}
+
+/* line 16, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item {
+  align-self: center;
+  justify-self: start;
+}
+
+/* line 20, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item h1, .preview__item h2 {
+  margin-bottom: 3rem;
+}
+
+/* line 24, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* line 29, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item-catalog {
+  margin-right: 2.7rem;
+}
+
+/* line 35, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item-slider-prev:hover, .preview__item-slider-next:hover {
+  transform: translateY(-50%) scale(1.04);
+}
+
+/* line 40, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item-slider-prev {
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: -2.5rem;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+/* line 50, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item-slider-prev svg {
+  transform: rotate(180deg);
+}
+
+/* line 55, D:/www/Dolphin/assets/scss/index.scss */
+.preview__item-slider-next {
+  position: relative;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  right: -2.5rem;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+/* line 68, D:/www/Dolphin/assets/scss/index.scss */
+.preview__slide {
+  width: 52rem;
+  height: 52rem;
+}
+
+/* line 72, D:/www/Dolphin/assets/scss/index.scss */
+.preview__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4rem;
+}
+
+/* line 80, D:/www/Dolphin/assets/scss/index.scss */
+.preview__slider-wrapper {
+  overflow: hidden;
+  max-width: 52rem;
+}
+
+/* line 85, D:/www/Dolphin/assets/scss/index.scss */
+.preview__slider-inner {
+  display: flex;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform .5s ease-in-out;
+}
+
+/* line 92, D:/www/Dolphin/assets/scss/index.scss */
+.preview__content {
+  position: relative;
+  margin-bottom: 3.5rem;
+}
+
+/* line 102, D:/www/Dolphin/assets/scss/index.scss */
+.slider__bar {
+  display: block;
+  width: 32rem;
+  height: .9rem;
+  background-color: #18254A;
+  border-radius: .6rem;
+  margin: 0 auto;
+}
+
+/* line 112, D:/www/Dolphin/assets/scss/index.scss */
+.slider__thumb {
+  display: block;
+  width: 8rem;
+  height: .9rem;
+  background-color: #b4b4b4;
+  border-radius: .6rem;
+  transition: transform .5s ease-in-out;
+}
+
+/* line 126, D:/www/Dolphin/assets/scss/index.scss */
+.popular {
+  width: 100%;
+}
+
+/* line 129, D:/www/Dolphin/assets/scss/index.scss */
+.popular h1 {
+  margin-bottom: 5rem;
+}
+
+/* line 133, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards {
+  display: grid;
+  grid-template-columns: 7rem repeat(4, auto) 7rem;
+  margin-bottom: 5rem;
+}
+
+/* line 138, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-prev, .popular__cards-next, .popular__cards-item {
+  justify-self: center;
+  align-self: center;
+}
+
+/* line 146, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-prev svg {
+  transform: rotate(180deg);
+}
+
+/* line 151, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  position: absolute;
+  top: 1rem;
+  left: 1.3rem;
+  z-index: 20;
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+}
+
+/* line 164, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-item {
+  position: relative;
+}
+
+/* line 167, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-item img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 1.2rem;
+  position: relative;
+}
+
+/* line 174, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-item .shadow-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  box-shadow: inset 0.1rem 0 5rem 3rem rgba(0, 0, 0, 0);
+  transition: box-shadow .3s ease-in-out;
+  border-radius: 1.2rem;
+}
+
+/* line 187, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-item:hover .shadow-overlay {
+  box-shadow: inset 0.1rem 0 5rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+/* line 191, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-item:hover h2 {
+  opacity: 1;
+}
+
+/* line 195, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-item:hover .popular__cards-about {
+  opacity: 1;
+}
+
+/* line 203, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-about {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 .8rem 0 1.3rem;
+  position: absolute;
+  z-index: 20;
+  bottom: .8rem;
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+}
+
+/* line 219, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-price h3 {
+  margin-bottom: .9rem;
+}
+
+/* line 223, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-price p {
+  margin-bottom: .8rem;
+}
+
+/* line 228, D:/www/Dolphin/assets/scss/index.scss */
+.popular__cards-buy {
+  align-self: flex-end;
+}
+
+/* line 240, D:/www/Dolphin/assets/scss/index.scss */
+.brands h1 {
+  margin-bottom: 4.5rem;
+}
+
+/* line 244, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards {
+  display: grid;
+  grid-template-columns: 10rem repeat(5, auto) 10rem;
+  margin-bottom: 5rem;
+}
+
+/* line 249, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-prev, .brands__cards-next, .brands__cards-item {
+  align-self: center;
+}
+
+/* line 255, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-prev {
+  justify-self: start;
+  margin-left: 2.3rem;
+}
+
+/* line 260, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-next {
+  justify-self: end;
+  margin-right: 2.3rem;
+}
+
+/* line 266, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-prev svg {
+  transform: rotate(180deg);
+}
+
+/* line 271, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-item {
+  justify-self: center;
+  cursor: pointer;
+}
+
+/* line 275, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-item img {
+  border-radius: 50%;
+}
+
+/* line 280, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-item:hover a {
+  background-image: linear-gradient(90deg, #26BEFF, #8EDDFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 286, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  margin-top: 1.1rem;
+}
+
+/* line 294, D:/www/Dolphin/assets/scss/index.scss */
+.brands__cards-about a {
+  line-height: 1.2;
+  font-size: 1.6rem;
+  margin-right: .5rem;
+  font-weight: 700;
+}
+
+/* line 308, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart h1 {
+  margin-bottom: 6rem;
+}
+
+/* line 312, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 5rem;
+}
+
+/* line 319, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 325, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__item img {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+/* line 330, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__item h2 {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  max-width: 40.5rem;
+}
+
+/* line 337, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__item p {
+  display: block;
+  max-width: 29.1rem;
+  font-size: 2rem;
+  color: #b4b4b4;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 347, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__item:first-child h2 {
+  margin-bottom: 1.1rem;
+}
+
+/* line 352, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__item:last-child {
+  margin-bottom: -2rem;
+}
+
+/* line 355, D:/www/Dolphin/assets/scss/index.scss */
+.quickstart__item:last-child p {
+  max-width: 31.8rem;
 }
 
 /*# sourceMappingURL=index.css.map */
